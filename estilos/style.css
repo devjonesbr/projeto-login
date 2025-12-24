@@ -45,4 +45,8 @@ main {
     padding: 10px;
 }
 
+@media screen and (orientation: landscape) {
+    width: 500px;
+}
+
 /*background: color>image>position>repeat>[size]>attachment;*/
