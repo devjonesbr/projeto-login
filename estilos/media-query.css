@@ -54,4 +54,15 @@
         width: 500px;
         height: 300px;
     }
+
+    #login > #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login > #formulario {
+        float: right;
+        width: 50%;
+    }
 }
