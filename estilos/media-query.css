@@ -7,18 +7,29 @@
     }
 
     #login {
-        width: 80vw;
+        width: 82vw;
+        height: 300px;
     }
 
     #login > #imagem {
         float: left;
         width: 30%;
         height: 100%;
+        background-position: right top;
     }
 
     #login #formulario {
         float: right;
         width: 70%;
+    }
+
+        #formulario > h1 {
+        font-size: 1.7em;
+    }
+
+    #formulario > p {
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
 
@@ -30,39 +41,34 @@
 
     #login {
         width: 920px;
+        height: 338px;
     }
     
     #login > #imagem {
         float: left;
         width: 50%;
         height: 100%;
+        background-position: right top;
     }
 
     #login > #formulario {
         float: right;
         width: 50%;
     }
+
+    #formulario > h1 {
+        font-size: 2em;
+    }
+
+    #formulario > p {
+        font-size: 1.1em;
+        margin: 20px 0px;
+    }
+
 }
 
-@media screen and (orientation: landscape) and (max-width: 768px) {
-    body, html {
-        background-image: none;
-        background-color: #5f2c82;
-    }
-
-    #login {
-        width: 500px;
-        height: 300px;
-    }
-
-    #login > #imagem {
-        float: left;
-        width: 50%;
-        height: 100%;
-    }
-
-    #login > #formulario {
-        float: right;
-        width: 50%;
-    }
+@media screen and (min-width: 1200px) {
+    .campo > input {
+    transform: translateY(-12.3px);
+}
 }
