@@ -45,15 +45,6 @@ main {
     padding: 10px;
 }
 
-@media screen and (orientation: landscape) {
 
-    body, html {
-        background-color: #5f2c82;
-    }
-
-    #login {
-        width: 500px;
-    }
-}
 
 /*background: color>image>position>repeat>[size]>attachment;*/
